@@ -1,0 +1,35 @@
+{
+  "name": "pizza-creator-admin",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "build": "webpack",
+    "start": "nodemon server.js ",
+    "dev": "webpack-dev-server --open --hot",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "author": "Harris Wang",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.3.4",
+    "@babel/preset-react": "^7.0.0",
+    "axios": "^0.18.0",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^2.1.0",
+    "express": "^4.16.4",
+    "file-loader": "^3.0.1",
+    "gh-pages": "^2.0.1",
+    "history": "^4.9.0",
+    "html-webpack-plugin": "^3.2.0",
+    "nodemon": "^1.19.4",
+    "react": "^16.8.1",
+    "react-dom": "^16.8.1",
+    "react-router-dom": "^5.0.0",
+    "style-loader": "^0.23.1",
+    "styled-components": "^4.2.0",
+    "webpack": "^4.29.2",
+    "webpack-cli": "^3.2.3",
+    "webpack-dev-server": "^3.1.14"
+  }
+}

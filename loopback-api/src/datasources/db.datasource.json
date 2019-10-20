@@ -1,0 +1,5 @@
+{
+  "connector": "mongodb",
+  "name": "pizza",
+  "url": "mongodb+srv://Harris:iWSSDy2XkkneLjMV@cluster0-jzuik.mongodb.net/test?retryWrites=true&w=majority"
+}

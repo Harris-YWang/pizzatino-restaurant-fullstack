@@ -1,0 +1,15 @@
+{
+  "name": "pizzatino-restaurant",
+  "version": "1.0.0",
+  "description": "A fullstack project for pizzatino restaurant",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "loopback",
+    "fullstack"
+  ],
+  "author": "Harris Wang",
+  "license": "ISC"
+}

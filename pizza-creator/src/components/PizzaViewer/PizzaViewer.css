@@ -1,0 +1,37 @@
+.heading {
+  margin: 0;
+  padding: 2rem;
+  background: #3a424f;
+  color: white;
+  text-align: center;
+}
+
+.pizza-viewer {
+  background: #3a424f;
+}
+.pizza-container {
+  width: 500px;
+  height: 350px;
+  position: relative;
+}
+.pizza-container > * {
+  position: absolute;
+}
+.pizza-container > .pizza-base {
+  width: 75%;
+  left: 90px;
+}
+.pizza-container > .pizza-toppings {
+  width: 50%;
+  left: 165px;
+  top: 50px;
+}
+.pizza-container > .pizza-board {
+  width: 100%;
+}
+.pizza-toppings img {
+  position: absolute;
+  top: -30px;
+  left: -60px;
+  zoom: 1.15;
+}
